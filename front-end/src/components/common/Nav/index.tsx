@@ -119,14 +119,14 @@ const Nav: FC = () => {
             open={Boolean(anchorElUser)}
             onClose={handleCloseUserMenu}
           >
-            <List>
-              <Button sx={{ color: "grey" }}>Profile</Button>
+            <List className="p-4">
+              <button className="p-2">Profile</button>
                <br />
-              <a href="/dashboard/dashboard"><Button sx={{ color: "grey" }}>Dashboard</Button></a>
+              <a href="/dashboard/dashboard"><button className="p-2">Dashboard</button></a>
               <br />
-              <Button sx={{ color: "grey" }}>Settings</Button>
+              <button className="p-2">Settings</button>
               <br />
-              <Button sx={{ color: "rgb(239, 101, 101)" }}>Logout</Button>
+              <button className="p-2">Logout</button>
             </List>
           </Menu>
         </Box>
